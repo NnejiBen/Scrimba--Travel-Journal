@@ -1,0 +1,113 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    max-width: 550px;
+    margin: 0 auto;
+
+/* NAVBAR SECTION */
+
+}
+.navbar {
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.nav--title {
+    font-size: 14px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+
+/* JOURNAL SECTION */
+
+.journal {
+    display: flex;
+    margin: 0 40px 36px 40px;
+}
+
+.journal--photo {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.journal--right-col {
+    display: flex;
+    flex-direction: column;
+    margin: auto 4px auto 19px;
+}
+
+.location-and-link {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.location-image {
+    width: 7px;
+    height: 9.55px;
+    margin-right: 4px;
+}
+
+.journal--location {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.google-maps-link {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.journal--title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-bottom: 16px;
+}
+
+.dates-section {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.dates {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.journal--description {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
