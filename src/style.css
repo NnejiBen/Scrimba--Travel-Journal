@@ -115,11 +115,6 @@
 /*RESPONSIVE MODE*/
 
 @media screen and (max-width: 720px) {
-    
-    #root {
-        /* max-width: 320px; */
-        margin: 0 auto;
-    }
 
 /* NAVBAR SECTION */
 
@@ -132,13 +127,14 @@
 .journal {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin: 0 16px 36px 16px;
 }
 
 .journal--photo {
     border-radius: 5px;
     margin-bottom: 16px;
+    margin-left: 20px;
 }
 
 .google-maps-link {
@@ -148,5 +144,9 @@
 .journal--title {
     font-size: 18px;
     margin-bottom: 8px;
+}
+
+.journal--description {
+    margin-right: 20px;
 }
 }
